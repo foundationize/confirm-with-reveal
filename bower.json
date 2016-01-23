@@ -11,7 +11,8 @@
     "zurb",
     "foundation",
     "reveal",
-    "confirm"
+    "confirm",
+    "foundation 6"
   ],
   "license": "MIT",
   "ignore": [
