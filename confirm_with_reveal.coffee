@@ -54,7 +54,7 @@ $.fn.extend
 
       # TODO: allow caller to pass in a template (DOM element to clone?)
       modal = $("""
-        <div data-reveal class='reveal-modal #{option 'modal_class'}'>
+        <div data-reveal class='reveal #{option 'modal_class'}' id='confirm-dialog'>
           <h2 data-confirm-title class='#{option 'title_class'}'></h2>
           <p data-confirm-body class='#{option 'body_class'}'></p>
           <div data-confirm-footer class='#{option 'footer_class'}'>
@@ -89,7 +89,7 @@ $.fn.extend
         .find('[data-confirm-cancel]')
         .html(option 'cancel')
         .on 'click', (e) ->
-          modal.foundation('reveal', 'close')
+          modal.foundation('close')
           $el.trigger('cancel.reveal', e)
       modal
         .find('[data-confirm-footer]')
@@ -120,7 +120,7 @@ $.fn.extend
       modal
         .appendTo($('body'))
         .foundation()
-        .foundation('reveal', 'open')
+        .foundation('open')
         .on 'closed.fndtn.reveal', (e) ->
           modal.remove()
 
