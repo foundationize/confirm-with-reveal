@@ -1,6 +1,6 @@
 # confirm-with-reveal
 
-Replacement for window.confirm() using the Reveal modal popup plugin from ZURB Foundation.
+Replacement for window.confirm() using the Reveal modal popup plugin from ZURB Foundation 6.
 
 For maximum **“are you really, really sure”** protection, the user can optionally be prompted to type out a word or phrase to enable the button to proceed.
 
