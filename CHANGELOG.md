@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## 1.0.2 ZF6 Compatible (2016-01-23)
+* Fork of 1.0.2 version with changes for making it Foundation 6 compatible
+
 ## 1.0.2 (2015-01-08)
 
 * Ensure that bare `data-confirm` attribute without value launches Foundation
