@@ -2,6 +2,11 @@
 
 Replacement for window.confirm() using the Reveal modal popup plugin from ZURB Foundation 6.
 
+Fixes previous issues:
+- Confirm modal popping up twice (fixed) 
+- JSON objects containing single quotes parsed as string instead of JSON object (fixed)
+
+
 For maximum **“are you really, really sure”** protection, the user can optionally be prompted to type out a word or phrase to enable the button to proceed.
 
 Requires [jQuery](http://jquery.com/), as well as ZURB’s [Reveal](http://foundation.zurb.com/docs/components/reveal.html) plugin.
